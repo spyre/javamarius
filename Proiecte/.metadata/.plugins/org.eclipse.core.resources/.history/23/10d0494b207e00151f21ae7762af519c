@@ -1,0 +1,18 @@
+
+public class Program {
+
+	public static void main(String[] args) {
+		
+		String tara = "DE";
+		
+		if(tara == "RO"){
+			System.out.println("Esti in Romania");
+			System.out.println("Bun venit");
+		}
+		
+		
+		
+		
+		
+	}
+}

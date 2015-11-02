@@ -1,0 +1,16 @@
+
+public class Program {
+
+	public static void main(String[] args) {
+
+		int numarDeRepetitii = 3;
+		
+		for(int i=0; i<numarDeRepetitii; i++){
+			System.out.println("HELLO");
+		}
+
+		
+		
+	}
+
+}

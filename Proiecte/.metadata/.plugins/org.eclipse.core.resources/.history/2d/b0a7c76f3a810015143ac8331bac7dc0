@@ -1,0 +1,14 @@
+
+public class Program {
+	
+
+	public static void main(String[] args) {
+
+		Persoana.saluta();
+		String s = "hello";
+
+		Persoana pers1 = new Persoana();
+		Persoana pers2 = new Persoana();
+	}
+
+}

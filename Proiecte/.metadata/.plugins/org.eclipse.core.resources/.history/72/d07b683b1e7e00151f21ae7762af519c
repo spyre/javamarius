@@ -1,0 +1,16 @@
+
+public class Program {
+
+	public static void main(String[] args) {
+		
+		String mesaj = "Privet";
+		
+		System.out.println(mesaj);
+		System.out.println(mesaj);
+		System.out.println(mesaj);
+		System.out.println(mesaj);
+		System.out.println(mesaj);
+		
+		
+	}
+}

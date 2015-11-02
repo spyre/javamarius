@@ -1,0 +1,9 @@
+
+public class Cont {
+
+	String numeCont;
+	double suma;
+	
+	
+	
+}

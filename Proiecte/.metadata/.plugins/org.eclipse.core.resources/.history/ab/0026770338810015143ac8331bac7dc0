@@ -1,0 +1,7 @@
+
+public class Ferma {
+
+	public static void infoFerma(){
+		System.out.println("Aceasta este o ferma");
+	}
+}

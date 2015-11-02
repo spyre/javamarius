@@ -1,0 +1,23 @@
+
+public class Program {
+
+	public static void main(String[] args) {
+		
+		String tara = "RO";
+		String mesaj = "Salut lume";
+		String info = "Aceasta e o aplicatie simpla :) ";
+		
+		if(tara == "RO"){
+			System.out.println("Esti in Romania");
+			System.out.println("Bun venit");
+		}else{
+			System.out.println("Strainatate");
+			System.out.println("Schimba bani");
+		}
+		
+		// String varsta = "18";
+		Integer x = 20;
+		if("15" < "18")
+		
+	}
+}

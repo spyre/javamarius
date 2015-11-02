@@ -1,0 +1,17 @@
+
+public class Program {
+
+	public static void main(String[] args) {
+		
+		String mesajDE = "Guten Tag";
+		String mesajRO = "Salut";
+		
+		System.out.println(mesajRO);
+		System.out.println(mesajRO);
+		System.out.println(mesajRO);
+		System.out.println(mesajRO);
+		System.out.println(mesajRO);
+		
+		
+	}
+}

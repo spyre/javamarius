@@ -1,0 +1,13 @@
+
+public class Program {
+	
+	String mancare = "pizza";
+
+	public static void main(String[] args) {
+
+		Persoana.saluta();
+		String s = "hello";
+	
+	}
+
+}

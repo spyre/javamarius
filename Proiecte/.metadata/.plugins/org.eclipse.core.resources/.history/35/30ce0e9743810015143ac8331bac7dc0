@@ -1,0 +1,19 @@
+
+public class Program {
+
+	public static void main(String[] args) {
+
+		
+		int numarDeRepetitii = 0;
+		System.out.println("Baga nr de repetitii: ");
+		
+		
+		for(int i=0; i<numarDeRepetitii; i++){
+			System.out.println("HELLO");
+		}
+
+		
+		
+	}
+
+}

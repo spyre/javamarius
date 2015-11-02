@@ -1,0 +1,9 @@
+
+public class Persoana {
+
+	
+	
+	public static void saluta(){
+		System.out.println("SALUT!");
+	}
+}

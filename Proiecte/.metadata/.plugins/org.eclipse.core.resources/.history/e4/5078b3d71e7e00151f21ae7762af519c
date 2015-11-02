@@ -1,0 +1,19 @@
+
+public class Program {
+
+	public static void main(String[] args) {
+		
+		String mesaj = "";
+		
+		String tara = "RO";
+		
+		
+		System.out.println(mesaj);
+		System.out.println(mesaj);
+		System.out.println(mesaj);
+		System.out.println(mesaj);
+		System.out.println(mesaj);
+		
+		
+	}
+}

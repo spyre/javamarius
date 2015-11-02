@@ -1,0 +1,26 @@
+
+public class Program {
+	
+
+	public static void main(String[] args) {
+
+		Persoana.saluta();
+
+		Persoana pers1 = new Persoana();
+		Persoana pers2 = new Persoana();
+		
+		pers1.nume = "Jim";
+		pers1.prenume = "Carrey";
+		pers1.varsta = 50;
+		
+		System.out.println("Numele este: " + pers1.nume);
+		System.out.println("Prenumele este: " + pers1.prenume);
+		System.out.println("Varsta este: " + pers1.varsta);
+		
+		System.out.println("Numele este: " + pers2.nume);
+		System.out.println("Prenumele este: " + pers2.prenume);
+		System.out.println("Varsta este: " + pers2.varsta);
+		
+	}
+
+}

@@ -1,0 +1,20 @@
+
+public class Program {
+
+	public static void main(String[] args) {
+
+		// Ferma.infoFerma();
+		Ferma.infoFermaStatic();
+		
+		System.out.println("*********************");
+		String nume = "Ion";
+		String nume2 = "Vasile";
+		String nume3 = new String("George");
+		
+		
+		Ferma f1 = new Ferma();
+		Ferma f2 = new Ferma();
+		
+	}
+
+}

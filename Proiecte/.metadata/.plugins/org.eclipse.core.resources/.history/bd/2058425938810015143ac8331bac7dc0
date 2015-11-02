@@ -1,0 +1,12 @@
+
+public class Program {
+
+	public static void main(String[] args) {
+
+		// Ferma.infoFerma();
+		Ferma.infoFermaStatic();
+		
+		System.out.println("*********************");
+	}
+
+}

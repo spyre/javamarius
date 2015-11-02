@@ -1,0 +1,11 @@
+
+public class Program {
+
+	public static void main(String[] args) {
+
+		Cont cont1 = new Cont();
+		cont1.numeCont = "ROING39210";
+		cont1.suma = 30000;
+	}
+
+}

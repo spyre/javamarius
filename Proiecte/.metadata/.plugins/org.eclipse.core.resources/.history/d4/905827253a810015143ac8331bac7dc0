@@ -1,0 +1,16 @@
+
+public class Persoana {
+
+	// atribute = caracteristici, trasturi = cine este
+	
+	public String nume;
+	public String prenume;
+	public int varsta;
+	
+	// metodele = comportamente = ce face
+	public static void saluta(){
+		System.out.println("SALUT!");
+		
+		
+	}
+}

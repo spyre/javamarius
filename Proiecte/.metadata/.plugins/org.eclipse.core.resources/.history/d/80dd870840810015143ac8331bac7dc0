@@ -1,0 +1,17 @@
+
+public class Cont {
+
+	String numeCont;
+	double suma;
+	
+	public void afiseazaInfoCont(){
+		System.out.println("Nume cont: " + numeCont + " === " + suma);
+	}
+	
+	public void retrageZeceMii(){
+		System.out.println("Retragem 10000");
+		suma = suma-10000;
+	}
+	
+	
+}
