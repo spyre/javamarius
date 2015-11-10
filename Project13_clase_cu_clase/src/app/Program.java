@@ -30,6 +30,18 @@ public class Program {
 		
 		home.postulPaginii = post1;
 		System.out.println(home.postulPaginii.autor);
+		
+		if(contact.postulPaginii != null){
+			System.out.println(contact.postulPaginii.autor);
+		}
+		
+		Pagina offline = null;
+		System.out.println(offline);
+		
+		if(offline != null)
+			offline.title = "To be implemented";
+		
+		
 	}
 
 }
