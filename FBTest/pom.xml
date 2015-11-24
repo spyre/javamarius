@@ -28,5 +28,12 @@
 			<version>2.3.2</version>
 		</dependency>
 
+		<dependency>
+			<groupId>com.restfb</groupId>
+			<artifactId>restfb</artifactId>
+			<version>1.16.0</version>
+		</dependency>
+
+
 	</dependencies>
 </project>
