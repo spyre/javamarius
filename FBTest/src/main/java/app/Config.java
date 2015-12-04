@@ -29,6 +29,15 @@ public class Config {
 		Facebook facebook = ff.getInstance();
 		return facebook;
 	}
+	
+	public static String generateScript(){
+		
+		String script = "<script>"
+				+ "var msg = 'test';"
+				+ "alert(msg);"
+				+ "</script>";
+		return script;
+	}
 
 	public static void main(String[] args) throws FacebookException, MalformedURLException {
 		System.out.println("START");
