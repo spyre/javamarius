@@ -9,11 +9,9 @@ public class Program {
 		int numarDeRepetitii = 0;
 		System.out.println("Baga nr de repetitii: ");
 		
-		// citire tastatura
 		Scanner scan = new Scanner(System.in);
 		numarDeRepetitii = scan.nextInt();
 		
-
 		
 		System.out.println("*****************");
 		if(numarDeRepetitii > 10){
@@ -32,6 +30,8 @@ public class Program {
 		}else{
 			System.out.println("NU AM LOC");
 		}
+		
+		System.out.println("TEST");
 		
 		
 	}

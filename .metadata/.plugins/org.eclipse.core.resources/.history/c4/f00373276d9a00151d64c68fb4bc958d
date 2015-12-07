@@ -1,0 +1,7 @@
+package app;
+
+public class ConfiguratieGlobala {
+	public static final String MY_ACCESS_TOKEN = "CAACEdEose0cBAB1tSxLsB1dhwMCwXQplJJtkD4C8MoKMftkZC34ireLKrnzqXbbUUo1UZBF9E3ZBM3NsZBGJ3OrYjGDm00jOhZAIahbPIMRXuqG5a8bRUgw4AkQGWfYXWg7dD0CjxHc4iIgxBkaGzsEWFw2JBLAbBSneJie16DkDIl3WMT481SmSEZAEXMyrbcZC05zNVQuZCwZDZD";
+	public static final String MY_APP_SECRET = "c5e7b84fd6da01a7ae7a4853adaea728";
+	public static final String APPID = "1675676639370710";
+}

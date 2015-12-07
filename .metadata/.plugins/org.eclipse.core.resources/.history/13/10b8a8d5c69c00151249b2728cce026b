@@ -1,0 +1,23 @@
+package dao;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+
+public class DAOTokens {
+
+	// punem aici tot codul care are legatura cu BD ca sa nu umplem Servlet-ul (TokenController / FBController / WHATEVERController)
+	
+	public static void saveToken(String value, String user){
+		String query = "INSERT INTO tokens (token_value, user) VALUES('"+value+"', '" + user +"')";
+		System.out.println(query);
+		
+		try{
+			Class.forName("com.mysql.jdbc.Driver"); // old
+			Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/testtoken", "root", "");
+		}catch(Exception e){
+			e.printStackTrace();
+		}
+	}
+	
+
+}

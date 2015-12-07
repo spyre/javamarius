@@ -1,0 +1,8 @@
+package dao;
+
+public class DAOTokens {
+
+	// punem aici tot codul care are legatura cu BD ca sa nu umplem Servlet-ul (TokenController / FBController / WHATEVERController)
+	
+	
+}

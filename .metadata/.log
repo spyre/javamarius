@@ -1,0 +1,1219 @@
+!SESSION 2015-11-09 10:22:36.865 -----------------------------------------------
+eclipse.buildId=4.5.1.M20150904-0015
+java.version=1.8.0_65
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2015-11-09 10:28:04.545
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Devi7'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.recommenders.types.rcp 1 3 2015-11-09 11:07:39.467
+!MESSAGE Full project indexing required:
+  [+] C:\Program Files\Java\jre1.8.0_65\lib\charsets.jar
+  [+] C:\Program Files\Java\jre1.8.0_65\lib\ext\access-bridge-64.jar
+  [+] C:\Program Files\Java\jre1.8.0_65\lib\ext\cldrdata.jar
+  [+] C:\Program Files\Java\jre1.8.0_65\lib\ext\dnsns.jar
+  [+] C:\Program Files\Java\jre1.8.0_65\lib\ext\jaccess.jar
+  [+] C:\Program Files\Java\jre1.8.0_65\lib\ext\jfxrt.jar
+  [+] C:\Program Files\Java\jre1.8.0_65\lib\ext\localedata.jar
+  [+] C:\Program Files\Java\jre1.8.0_65\lib\ext\nashorn.jar
+  [+] C:\Program Files\Java\jre1.8.0_65\lib\ext\sunec.jar
+  [+] C:\Program Files\Java\jre1.8.0_65\lib\ext\sunjce_provider.jar
+  [+] C:\Program Files\Java\jre1.8.0_65\lib\ext\sunmscapi.jar
+  [+] C:\Program Files\Java\jre1.8.0_65\lib\ext\sunpkcs11.jar
+  [+] C:\Program Files\Java\jre1.8.0_65\lib\ext\zipfs.jar
+  [+] C:\Program Files\Java\jre1.8.0_65\lib\jce.jar
+  [+] C:\Program Files\Java\jre1.8.0_65\lib\jfr.jar
+  [+] C:\Program Files\Java\jre1.8.0_65\lib\jsse.jar
+  [+] C:\Program Files\Java\jre1.8.0_65\lib\resources.jar
+  [+] C:\Program Files\Java\jre1.8.0_65\lib\rt.jar
+
+!STACK 0
+org.eclipse.recommenders.utils.Logs$LogTraceException
+	at org.eclipse.recommenders.utils.Logs$LogTraceException.newTrace(Logs.java:381)
+	at org.eclipse.recommenders.utils.Logs.log(Logs.java:134)
+	at org.eclipse.recommenders.internal.types.rcp.ProjectTypesIndex.needsRebuild(ProjectTypesIndex.java:170)
+	at org.eclipse.recommenders.internal.types.rcp.ProjectTypesIndex.startUp(ProjectTypesIndex.java:126)
+	at com.google.common.util.concurrent.AbstractIdleService$2$1.run(AbstractIdleService.java:54)
+	at com.google.common.util.concurrent.Callables$3.run(Callables.java:93)
+	at java.lang.Thread.run(Unknown Source)
+
+!ENTRY org.eclipse.egit.ui 4 0 2015-11-09 11:29:00.386
+!MESSAGE Exception caught during execution of add command
+!STACK 0
+org.eclipse.jgit.api.errors.JGitInternalException: Exception caught during execution of add command
+	at org.eclipse.jgit.api.AddCommand.call(AddCommand.java:211)
+	at org.eclipse.egit.core.op.CommitOperation.addUntracked(CommitOperation.java:222)
+	at org.eclipse.egit.core.op.CommitOperation.access$4(CommitOperation.java:210)
+	at org.eclipse.egit.core.op.CommitOperation$1.run(CommitOperation.java:195)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2241)
+	at org.eclipse.egit.core.op.CommitOperation.execute(CommitOperation.java:206)
+	at org.eclipse.egit.ui.internal.commit.CommitJob.run(CommitJob.java:98)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: java.io.IOException: The process cannot access the file because another process has locked a portion of the file
+	at java.io.FileInputStream.readBytes(Native Method)
+	at java.io.FileInputStream.read(Unknown Source)
+	at org.eclipse.jgit.util.IO.readFully(IO.java:302)
+	at org.eclipse.jgit.internal.storage.file.ObjectDirectoryInserter.insert(ObjectDirectoryInserter.java:103)
+	at org.eclipse.jgit.api.AddCommand.call(AddCommand.java:187)
+	... 7 more
+!SESSION 2015-11-10 09:45:51.121 -----------------------------------------------
+eclipse.buildId=4.5.1.M20150904-0015
+java.version=1.8.0_65
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2015-11-10 09:49:27.239
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Devi7'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2015-11-10 10:18:53.384 -----------------------------------------------
+eclipse.buildId=4.5.1.M20150904-0015
+java.version=1.8.0_65
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2015-11-10 10:20:56.983
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Devi7'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.recommenders.types.rcp 1 3 2015-11-10 10:35:45.207
+!MESSAGE Full project indexing required:
+  [+] C:\Program Files\Java\jre1.8.0_65\lib\charsets.jar
+  [+] C:\Program Files\Java\jre1.8.0_65\lib\ext\access-bridge-64.jar
+  [+] C:\Program Files\Java\jre1.8.0_65\lib\ext\cldrdata.jar
+  [+] C:\Program Files\Java\jre1.8.0_65\lib\ext\dnsns.jar
+  [+] C:\Program Files\Java\jre1.8.0_65\lib\ext\jaccess.jar
+  [+] C:\Program Files\Java\jre1.8.0_65\lib\ext\jfxrt.jar
+  [+] C:\Program Files\Java\jre1.8.0_65\lib\ext\localedata.jar
+  [+] C:\Program Files\Java\jre1.8.0_65\lib\ext\nashorn.jar
+  [+] C:\Program Files\Java\jre1.8.0_65\lib\ext\sunec.jar
+  [+] C:\Program Files\Java\jre1.8.0_65\lib\ext\sunjce_provider.jar
+  [+] C:\Program Files\Java\jre1.8.0_65\lib\ext\sunmscapi.jar
+  [+] C:\Program Files\Java\jre1.8.0_65\lib\ext\sunpkcs11.jar
+  [+] C:\Program Files\Java\jre1.8.0_65\lib\ext\zipfs.jar
+  [+] C:\Program Files\Java\jre1.8.0_65\lib\jce.jar
+  [+] C:\Program Files\Java\jre1.8.0_65\lib\jfr.jar
+  [+] C:\Program Files\Java\jre1.8.0_65\lib\jsse.jar
+  [+] C:\Program Files\Java\jre1.8.0_65\lib\resources.jar
+  [+] C:\Program Files\Java\jre1.8.0_65\lib\rt.jar
+
+!STACK 0
+org.eclipse.recommenders.utils.Logs$LogTraceException
+	at org.eclipse.recommenders.utils.Logs$LogTraceException.newTrace(Logs.java:381)
+	at org.eclipse.recommenders.utils.Logs.log(Logs.java:134)
+	at org.eclipse.recommenders.internal.types.rcp.ProjectTypesIndex.needsRebuild(ProjectTypesIndex.java:170)
+	at org.eclipse.recommenders.internal.types.rcp.ProjectTypesIndex.startUp(ProjectTypesIndex.java:126)
+	at com.google.common.util.concurrent.AbstractIdleService$2$1.run(AbstractIdleService.java:54)
+	at com.google.common.util.concurrent.Callables$3.run(Callables.java:93)
+	at java.lang.Thread.run(Unknown Source)
+!SESSION 2015-11-11 09:26:05.255 -----------------------------------------------
+eclipse.buildId=4.5.1.M20150904-0015
+java.version=1.8.0_65
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2015-11-11 09:30:07.129
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Devi7'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.recommenders.types.rcp 1 3 2015-11-11 10:01:00.603
+!MESSAGE Full project indexing required:
+  [+] C:\Program Files\Java\jre1.8.0_65\lib\charsets.jar
+  [+] C:\Program Files\Java\jre1.8.0_65\lib\ext\access-bridge-64.jar
+  [+] C:\Program Files\Java\jre1.8.0_65\lib\ext\cldrdata.jar
+  [+] C:\Program Files\Java\jre1.8.0_65\lib\ext\dnsns.jar
+  [+] C:\Program Files\Java\jre1.8.0_65\lib\ext\jaccess.jar
+  [+] C:\Program Files\Java\jre1.8.0_65\lib\ext\jfxrt.jar
+  [+] C:\Program Files\Java\jre1.8.0_65\lib\ext\localedata.jar
+  [+] C:\Program Files\Java\jre1.8.0_65\lib\ext\nashorn.jar
+  [+] C:\Program Files\Java\jre1.8.0_65\lib\ext\sunec.jar
+  [+] C:\Program Files\Java\jre1.8.0_65\lib\ext\sunjce_provider.jar
+  [+] C:\Program Files\Java\jre1.8.0_65\lib\ext\sunmscapi.jar
+  [+] C:\Program Files\Java\jre1.8.0_65\lib\ext\sunpkcs11.jar
+  [+] C:\Program Files\Java\jre1.8.0_65\lib\ext\zipfs.jar
+  [+] C:\Program Files\Java\jre1.8.0_65\lib\jce.jar
+  [+] C:\Program Files\Java\jre1.8.0_65\lib\jfr.jar
+  [+] C:\Program Files\Java\jre1.8.0_65\lib\jsse.jar
+  [+] C:\Program Files\Java\jre1.8.0_65\lib\resources.jar
+  [+] C:\Program Files\Java\jre1.8.0_65\lib\rt.jar
+  [+] C:\Users\Devi7\.m2\repository\junit\junit\3.8.1\junit-3.8.1.jar
+  [+] C:\Users\Devi7\.m2\repository\mysql\mysql-connector-java\5.1.6\mysql-connector-java-5.1.6.jar
+
+!STACK 0
+org.eclipse.recommenders.utils.Logs$LogTraceException
+	at org.eclipse.recommenders.utils.Logs$LogTraceException.newTrace(Logs.java:381)
+	at org.eclipse.recommenders.utils.Logs.log(Logs.java:134)
+	at org.eclipse.recommenders.internal.types.rcp.ProjectTypesIndex.needsRebuild(ProjectTypesIndex.java:170)
+	at org.eclipse.recommenders.internal.types.rcp.ProjectTypesIndex.startUp(ProjectTypesIndex.java:126)
+	at com.google.common.util.concurrent.AbstractIdleService$2$1.run(AbstractIdleService.java:54)
+	at com.google.common.util.concurrent.Callables$3.run(Callables.java:93)
+	at java.lang.Thread.run(Unknown Source)
+
+!ENTRY org.eclipse.recommenders.types.rcp 1 3 2015-11-11 10:12:22.118
+!MESSAGE Full project indexing required:
+  [-] C:\Users\Devi7\.m2\repository\mysql\mysql-connector-java\5.1.6\mysql-connector-java-5.1.6.jar
+
+!STACK 0
+org.eclipse.recommenders.utils.Logs$LogTraceException
+	at org.eclipse.recommenders.utils.Logs$LogTraceException.newTrace(Logs.java:381)
+	at org.eclipse.recommenders.utils.Logs.log(Logs.java:134)
+	at org.eclipse.recommenders.internal.types.rcp.ProjectTypesIndex.needsRebuild(ProjectTypesIndex.java:170)
+	at org.eclipse.recommenders.internal.types.rcp.ProjectTypesIndex.suggestRebuild(ProjectTypesIndex.java:464)
+	at org.eclipse.recommenders.internal.types.rcp.TypesIndexService.rebuildIndex(TypesIndexService.java:120)
+	at org.eclipse.recommenders.internal.types.rcp.TypesIndexService.process(TypesIndexService.java:57)
+	at org.eclipse.recommenders.internal.types.rcp.TypesIndexService.process(TypesIndexService.java:63)
+	at org.eclipse.recommenders.internal.types.rcp.TypesIndexService.elementChanged(TypesIndexService.java:49)
+	at org.eclipse.jdt.internal.core.DeltaProcessor$3.run(DeltaProcessor.java:1662)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.notifyListeners(DeltaProcessor.java:1652)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.firePostChangeDelta(DeltaProcessor.java:1486)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.fire(DeltaProcessor.java:1462)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.resourceChanged(DeltaProcessor.java:2074)
+	at org.eclipse.jdt.internal.core.DeltaProcessingState.resourceChanged(DeltaProcessingState.java:477)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:299)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:289)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:152)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:373)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1470)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2250)
+	at org.eclipse.core.internal.events.NotificationManager$NotifyJob.run(NotificationManager.java:43)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.recommenders.types.rcp 1 3 2015-11-11 10:13:23.317
+!MESSAGE Full project indexing required:
+  [+] D:\development\Java\librarii\mysql-connector-java-5.1.37-bin.jar
+  [-] C:\Users\Devi7\.m2\repository\mysql\mysql-connector-java\5.1.6\mysql-connector-java-5.1.6.jar
+
+!STACK 0
+org.eclipse.recommenders.utils.Logs$LogTraceException
+	at org.eclipse.recommenders.utils.Logs$LogTraceException.newTrace(Logs.java:381)
+	at org.eclipse.recommenders.utils.Logs.log(Logs.java:134)
+	at org.eclipse.recommenders.internal.types.rcp.ProjectTypesIndex.needsRebuild(ProjectTypesIndex.java:170)
+	at org.eclipse.recommenders.internal.types.rcp.ProjectTypesIndex.suggestRebuild(ProjectTypesIndex.java:464)
+	at org.eclipse.recommenders.internal.types.rcp.TypesIndexService.rebuildIndex(TypesIndexService.java:120)
+	at org.eclipse.recommenders.internal.types.rcp.TypesIndexService.process(TypesIndexService.java:57)
+	at org.eclipse.recommenders.internal.types.rcp.TypesIndexService.process(TypesIndexService.java:63)
+	at org.eclipse.recommenders.internal.types.rcp.TypesIndexService.elementChanged(TypesIndexService.java:49)
+	at org.eclipse.jdt.internal.core.DeltaProcessor$3.run(DeltaProcessor.java:1662)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.notifyListeners(DeltaProcessor.java:1652)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.firePostChangeDelta(DeltaProcessor.java:1486)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.fire(DeltaProcessor.java:1462)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.resourceChanged(DeltaProcessor.java:2074)
+	at org.eclipse.jdt.internal.core.DeltaProcessingState.resourceChanged(DeltaProcessingState.java:477)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:299)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:289)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:152)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:373)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1470)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2250)
+	at org.eclipse.jdt.core.JavaCore.run(JavaCore.java:5409)
+	at org.eclipse.jdt.internal.ui.actions.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:106)
+	at org.eclipse.jdt.internal.ui.actions.WorkbenchRunnableAdapter$1.run(WorkbenchRunnableAdapter.java:122)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.recommenders.types.rcp 1 3 2015-11-11 10:16:18.124
+!MESSAGE Full project indexing required:
+  [+] C:\Users\Devi7\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar
+  [+] C:\Users\Devi7\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar
+  [+] C:\Users\Devi7\.m2\repository\org\springframework\spring-aop\4.2.2.RELEASE\spring-aop-4.2.2.RELEASE.jar
+  [+] C:\Users\Devi7\.m2\repository\org\springframework\spring-beans\4.2.2.RELEASE\spring-beans-4.2.2.RELEASE.jar
+  [+] C:\Users\Devi7\.m2\repository\org\springframework\spring-context\4.2.2.RELEASE\spring-context-4.2.2.RELEASE.jar
+  [+] C:\Users\Devi7\.m2\repository\org\springframework\spring-core\4.2.2.RELEASE\spring-core-4.2.2.RELEASE.jar
+  [+] C:\Users\Devi7\.m2\repository\org\springframework\spring-expression\4.2.2.RELEASE\spring-expression-4.2.2.RELEASE.jar
+  [+] D:\development\Java\librarii\mysql-connector-java-5.1.37-bin.jar
+  [-] C:\Users\Devi7\.m2\repository\mysql\mysql-connector-java\5.1.6\mysql-connector-java-5.1.6.jar
+
+!STACK 0
+org.eclipse.recommenders.utils.Logs$LogTraceException
+	at org.eclipse.recommenders.utils.Logs$LogTraceException.newTrace(Logs.java:381)
+	at org.eclipse.recommenders.utils.Logs.log(Logs.java:134)
+	at org.eclipse.recommenders.internal.types.rcp.ProjectTypesIndex.needsRebuild(ProjectTypesIndex.java:170)
+	at org.eclipse.recommenders.internal.types.rcp.ProjectTypesIndex.suggestRebuild(ProjectTypesIndex.java:464)
+	at org.eclipse.recommenders.internal.types.rcp.TypesIndexService.rebuildIndex(TypesIndexService.java:120)
+	at org.eclipse.recommenders.internal.types.rcp.TypesIndexService.process(TypesIndexService.java:57)
+	at org.eclipse.recommenders.internal.types.rcp.TypesIndexService.process(TypesIndexService.java:63)
+	at org.eclipse.recommenders.internal.types.rcp.TypesIndexService.elementChanged(TypesIndexService.java:49)
+	at org.eclipse.jdt.internal.core.DeltaProcessor$3.run(DeltaProcessor.java:1662)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.notifyListeners(DeltaProcessor.java:1652)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.firePostChangeDelta(DeltaProcessor.java:1486)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.fire(DeltaProcessor.java:1462)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.resourceChanged(DeltaProcessor.java:2074)
+	at org.eclipse.jdt.internal.core.DeltaProcessingState.resourceChanged(DeltaProcessingState.java:477)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:299)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:289)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:152)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:373)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1470)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:157)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:235)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.recommenders.types.rcp 1 3 2015-11-11 11:12:06.158
+!MESSAGE Full project indexing required:
+  [+] C:\Program Files\Java\jre1.8.0_65\lib\charsets.jar
+  [+] C:\Program Files\Java\jre1.8.0_65\lib\ext\access-bridge-64.jar
+  [+] C:\Program Files\Java\jre1.8.0_65\lib\ext\cldrdata.jar
+  [+] C:\Program Files\Java\jre1.8.0_65\lib\ext\dnsns.jar
+  [+] C:\Program Files\Java\jre1.8.0_65\lib\ext\jaccess.jar
+  [+] C:\Program Files\Java\jre1.8.0_65\lib\ext\jfxrt.jar
+  [+] C:\Program Files\Java\jre1.8.0_65\lib\ext\localedata.jar
+  [+] C:\Program Files\Java\jre1.8.0_65\lib\ext\nashorn.jar
+  [+] C:\Program Files\Java\jre1.8.0_65\lib\ext\sunec.jar
+  [+] C:\Program Files\Java\jre1.8.0_65\lib\ext\sunjce_provider.jar
+  [+] C:\Program Files\Java\jre1.8.0_65\lib\ext\sunmscapi.jar
+  [+] C:\Program Files\Java\jre1.8.0_65\lib\ext\sunpkcs11.jar
+  [+] C:\Program Files\Java\jre1.8.0_65\lib\ext\zipfs.jar
+  [+] C:\Program Files\Java\jre1.8.0_65\lib\jce.jar
+  [+] C:\Program Files\Java\jre1.8.0_65\lib\jfr.jar
+  [+] C:\Program Files\Java\jre1.8.0_65\lib\jsse.jar
+  [+] C:\Program Files\Java\jre1.8.0_65\lib\resources.jar
+  [+] C:\Program Files\Java\jre1.8.0_65\lib\rt.jar
+
+!STACK 0
+org.eclipse.recommenders.utils.Logs$LogTraceException
+	at org.eclipse.recommenders.utils.Logs$LogTraceException.newTrace(Logs.java:381)
+	at org.eclipse.recommenders.utils.Logs.log(Logs.java:134)
+	at org.eclipse.recommenders.internal.types.rcp.ProjectTypesIndex.needsRebuild(ProjectTypesIndex.java:170)
+	at org.eclipse.recommenders.internal.types.rcp.ProjectTypesIndex.startUp(ProjectTypesIndex.java:126)
+	at com.google.common.util.concurrent.AbstractIdleService$2$1.run(AbstractIdleService.java:54)
+	at com.google.common.util.concurrent.Callables$3.run(Callables.java:93)
+	at java.lang.Thread.run(Unknown Source)
+!SESSION 2015-11-12 09:35:49.847 -----------------------------------------------
+eclipse.buildId=4.5.1.M20150904-0015
+java.version=1.8.0_65
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2015-11-12 09:42:01.740
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Devi7'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.osgi 2 0 2015-11-12 09:42:08.026
+!MESSAGE While loading class "org.eclipse.m2e.jdt.internal.MavenClasspathContainerInitializer", thread "Thread[Worker-1,5,main]" timed out waiting (5046ms) for thread "Thread[Worker-5,5,main]" to finish starting bundle "org.eclipse.m2e.jdt_1.6.2.20150902-0002 [550]". To avoid deadlock, thread "Thread[Worker-1,5,main]" is proceeding but "org.eclipse.m2e.jdt.internal.MavenClasspathContainerInitializer" may not be fully initialized.
+!STACK 0
+org.osgi.framework.BundleException: Unable to acquire the state change lock for the module: osgi.identity; osgi.identity="org.eclipse.m2e.jdt"; type="osgi.bundle"; version:Version="1.6.2.20150902-0002"; singleton:="true" [id=550] STARTED [STARTED]
+	at org.eclipse.osgi.container.Module.lockStateChange(Module.java:329)
+	at org.eclipse.osgi.container.Module.start(Module.java:389)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:454)
+	at org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:107)
+	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findLocalClass(ClasspathManager.java:531)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.findLocalClass(ModuleClassLoader.java:324)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:327)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:402)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:352)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:344)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:160)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.loadClass(EquinoxBundle.java:573)
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.createExecutableExtension(RegistryStrategyOSGI.java:174)
+	at org.eclipse.core.internal.registry.ExtensionRegistry.createExecutableExtension(ExtensionRegistry.java:905)
+	at org.eclipse.core.internal.registry.ConfigurationElement.createExecutableExtension(ConfigurationElement.java:243)
+	at org.eclipse.core.internal.registry.ConfigurationElementHandle.createExecutableExtension(ConfigurationElementHandle.java:55)
+	at org.eclipse.jdt.core.JavaCore.computeClasspathContainerInitializer(JavaCore.java:3345)
+	at org.eclipse.jdt.core.JavaCore.getClasspathContainerInitializer(JavaCore.java:3321)
+	at org.eclipse.jdt.internal.core.JavaModelManager.initializeContainer(JavaModelManager.java:2849)
+	at org.eclipse.jdt.internal.core.JavaModelManager$10.run(JavaModelManager.java:2774)
+	at org.eclipse.jdt.internal.core.JavaModelManager.initializeAllContainers(JavaModelManager.java:2812)
+	at org.eclipse.jdt.internal.core.JavaModelManager.getClasspathContainer(JavaModelManager.java:1895)
+	at org.eclipse.jdt.core.JavaCore.getClasspathContainer(JavaCore.java:3298)
+	at org.eclipse.jdt.internal.core.JavaProject.resolveClasspath(JavaProject.java:2693)
+	at org.eclipse.jdt.internal.core.JavaProject.resolveClasspath(JavaProject.java:2857)
+	at org.eclipse.jdt.internal.core.ClasspathChange.generateDelta(ClasspathChange.java:235)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.resourceChanged(DeltaProcessor.java:2032)
+	at org.eclipse.jdt.internal.core.DeltaProcessingState.resourceChanged(DeltaProcessingState.java:477)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:299)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:289)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:152)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:373)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1470)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2250)
+	at org.eclipse.core.internal.events.NotificationManager$NotifyJob.run(NotificationManager.java:43)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.osgi 2 0 2015-11-12 09:42:13.086
+!MESSAGE While loading class "org.eclipse.m2e.jdt.internal.MavenClasspathHelpers", thread "Thread[Worker-1,5,main]" timed out waiting (5010ms) for thread "Thread[Worker-5,5,main]" to finish starting bundle "org.eclipse.m2e.jdt_1.6.2.20150902-0002 [550]". To avoid deadlock, thread "Thread[Worker-1,5,main]" is proceeding but "org.eclipse.m2e.jdt.internal.MavenClasspathHelpers" may not be fully initialized.
+!STACK 0
+org.osgi.framework.BundleException: Unable to acquire the state change lock for the module: osgi.identity; osgi.identity="org.eclipse.m2e.jdt"; type="osgi.bundle"; version:Version="1.6.2.20150902-0002"; singleton:="true" [id=550] STARTED [STARTED]
+	at org.eclipse.osgi.container.Module.lockStateChange(Module.java:329)
+	at org.eclipse.osgi.container.Module.start(Module.java:389)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:454)
+	at org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:107)
+	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findLocalClass(ClasspathManager.java:531)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.findLocalClass(ModuleClassLoader.java:324)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:327)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:402)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:352)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:344)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:160)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at org.eclipse.m2e.jdt.internal.MavenClasspathContainerInitializer.initialize(MavenClasspathContainerInitializer.java:44)
+	at org.eclipse.jdt.internal.core.JavaModelManager.initializeContainer(JavaModelManager.java:2868)
+	at org.eclipse.jdt.internal.core.JavaModelManager$10.run(JavaModelManager.java:2774)
+	at org.eclipse.jdt.internal.core.JavaModelManager.initializeAllContainers(JavaModelManager.java:2812)
+	at org.eclipse.jdt.internal.core.JavaModelManager.getClasspathContainer(JavaModelManager.java:1895)
+	at org.eclipse.jdt.core.JavaCore.getClasspathContainer(JavaCore.java:3298)
+	at org.eclipse.jdt.internal.core.JavaProject.resolveClasspath(JavaProject.java:2693)
+	at org.eclipse.jdt.internal.core.JavaProject.resolveClasspath(JavaProject.java:2857)
+	at org.eclipse.jdt.internal.core.ClasspathChange.generateDelta(ClasspathChange.java:235)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.resourceChanged(DeltaProcessor.java:2032)
+	at org.eclipse.jdt.internal.core.DeltaProcessingState.resourceChanged(DeltaProcessingState.java:477)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:299)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:289)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:152)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:373)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1470)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2250)
+	at org.eclipse.core.internal.events.NotificationManager$NotifyJob.run(NotificationManager.java:43)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.core.resources 4 2 2015-11-12 09:42:15.756
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.m2e.jdt.internal.MavenClasspathContainerInitializer.getBuildPathManager(MavenClasspathContainerInitializer.java:80)
+	at org.eclipse.m2e.jdt.internal.MavenClasspathContainerInitializer.initialize(MavenClasspathContainerInitializer.java:46)
+	at org.eclipse.jdt.internal.core.JavaModelManager.initializeContainer(JavaModelManager.java:2868)
+	at org.eclipse.jdt.internal.core.JavaModelManager$10.run(JavaModelManager.java:2774)
+	at org.eclipse.jdt.internal.core.JavaModelManager.initializeAllContainers(JavaModelManager.java:2812)
+	at org.eclipse.jdt.internal.core.JavaModelManager.getClasspathContainer(JavaModelManager.java:1895)
+	at org.eclipse.jdt.core.JavaCore.getClasspathContainer(JavaCore.java:3298)
+	at org.eclipse.jdt.internal.core.JavaProject.resolveClasspath(JavaProject.java:2693)
+	at org.eclipse.jdt.internal.core.JavaProject.resolveClasspath(JavaProject.java:2857)
+	at org.eclipse.jdt.internal.core.ClasspathChange.generateDelta(ClasspathChange.java:235)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.resourceChanged(DeltaProcessor.java:2032)
+	at org.eclipse.jdt.internal.core.DeltaProcessingState.resourceChanged(DeltaProcessingState.java:477)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:299)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:289)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:152)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:373)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1470)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2250)
+	at org.eclipse.core.internal.events.NotificationManager$NotifyJob.run(NotificationManager.java:43)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.recommenders.types.rcp 1 3 2015-11-12 09:53:10.353
+!MESSAGE Full project indexing required:
+  [+] C:\Program Files\Java\jre1.8.0_65\lib\charsets.jar
+  [+] C:\Program Files\Java\jre1.8.0_65\lib\ext\access-bridge-64.jar
+  [+] C:\Program Files\Java\jre1.8.0_65\lib\ext\cldrdata.jar
+  [+] C:\Program Files\Java\jre1.8.0_65\lib\ext\dnsns.jar
+  [+] C:\Program Files\Java\jre1.8.0_65\lib\ext\jaccess.jar
+  [+] C:\Program Files\Java\jre1.8.0_65\lib\ext\jfxrt.jar
+  [+] C:\Program Files\Java\jre1.8.0_65\lib\ext\localedata.jar
+  [+] C:\Program Files\Java\jre1.8.0_65\lib\ext\nashorn.jar
+  [+] C:\Program Files\Java\jre1.8.0_65\lib\ext\sunec.jar
+  [+] C:\Program Files\Java\jre1.8.0_65\lib\ext\sunjce_provider.jar
+  [+] C:\Program Files\Java\jre1.8.0_65\lib\ext\sunmscapi.jar
+  [+] C:\Program Files\Java\jre1.8.0_65\lib\ext\sunpkcs11.jar
+  [+] C:\Program Files\Java\jre1.8.0_65\lib\ext\zipfs.jar
+  [+] C:\Program Files\Java\jre1.8.0_65\lib\jce.jar
+  [+] C:\Program Files\Java\jre1.8.0_65\lib\jfr.jar
+  [+] C:\Program Files\Java\jre1.8.0_65\lib\jsse.jar
+  [+] C:\Program Files\Java\jre1.8.0_65\lib\resources.jar
+  [+] C:\Program Files\Java\jre1.8.0_65\lib\rt.jar
+
+!STACK 0
+org.eclipse.recommenders.utils.Logs$LogTraceException
+	at org.eclipse.recommenders.utils.Logs$LogTraceException.newTrace(Logs.java:381)
+	at org.eclipse.recommenders.utils.Logs.log(Logs.java:134)
+	at org.eclipse.recommenders.internal.types.rcp.ProjectTypesIndex.needsRebuild(ProjectTypesIndex.java:170)
+	at org.eclipse.recommenders.internal.types.rcp.ProjectTypesIndex.startUp(ProjectTypesIndex.java:126)
+	at com.google.common.util.concurrent.AbstractIdleService$2$1.run(AbstractIdleService.java:54)
+	at com.google.common.util.concurrent.Callables$3.run(Callables.java:93)
+	at java.lang.Thread.run(Unknown Source)
+
+!ENTRY org.eclipse.recommenders.types.rcp 1 3 2015-11-12 10:02:42.567
+!MESSAGE Full project indexing required:
+  [+] C:\Program Files\Java\jre1.8.0_65\lib\charsets.jar
+  [+] C:\Program Files\Java\jre1.8.0_65\lib\ext\access-bridge-64.jar
+  [+] C:\Program Files\Java\jre1.8.0_65\lib\ext\cldrdata.jar
+  [+] C:\Program Files\Java\jre1.8.0_65\lib\ext\dnsns.jar
+  [+] C:\Program Files\Java\jre1.8.0_65\lib\ext\jaccess.jar
+  [+] C:\Program Files\Java\jre1.8.0_65\lib\ext\jfxrt.jar
+  [+] C:\Program Files\Java\jre1.8.0_65\lib\ext\localedata.jar
+  [+] C:\Program Files\Java\jre1.8.0_65\lib\ext\nashorn.jar
+  [+] C:\Program Files\Java\jre1.8.0_65\lib\ext\sunec.jar
+  [+] C:\Program Files\Java\jre1.8.0_65\lib\ext\sunjce_provider.jar
+  [+] C:\Program Files\Java\jre1.8.0_65\lib\ext\sunmscapi.jar
+  [+] C:\Program Files\Java\jre1.8.0_65\lib\ext\sunpkcs11.jar
+  [+] C:\Program Files\Java\jre1.8.0_65\lib\ext\zipfs.jar
+  [+] C:\Program Files\Java\jre1.8.0_65\lib\jce.jar
+  [+] C:\Program Files\Java\jre1.8.0_65\lib\jfr.jar
+  [+] C:\Program Files\Java\jre1.8.0_65\lib\jsse.jar
+  [+] C:\Program Files\Java\jre1.8.0_65\lib\resources.jar
+  [+] C:\Program Files\Java\jre1.8.0_65\lib\rt.jar
+
+!STACK 0
+org.eclipse.recommenders.utils.Logs$LogTraceException
+	at org.eclipse.recommenders.utils.Logs$LogTraceException.newTrace(Logs.java:381)
+	at org.eclipse.recommenders.utils.Logs.log(Logs.java:134)
+	at org.eclipse.recommenders.internal.types.rcp.ProjectTypesIndex.needsRebuild(ProjectTypesIndex.java:170)
+	at org.eclipse.recommenders.internal.types.rcp.ProjectTypesIndex.startUp(ProjectTypesIndex.java:126)
+	at com.google.common.util.concurrent.AbstractIdleService$2$1.run(AbstractIdleService.java:54)
+	at com.google.common.util.concurrent.Callables$3.run(Callables.java:93)
+	at java.lang.Thread.run(Unknown Source)
+
+!ENTRY org.eclipse.recommenders.types.rcp 1 3 2015-11-12 11:07:32.367
+!MESSAGE Full project indexing required:
+  [+] C:\Program Files\Java\jre1.8.0_65\lib\charsets.jar
+  [+] C:\Program Files\Java\jre1.8.0_65\lib\ext\access-bridge-64.jar
+  [+] C:\Program Files\Java\jre1.8.0_65\lib\ext\cldrdata.jar
+  [+] C:\Program Files\Java\jre1.8.0_65\lib\ext\dnsns.jar
+  [+] C:\Program Files\Java\jre1.8.0_65\lib\ext\jaccess.jar
+  [+] C:\Program Files\Java\jre1.8.0_65\lib\ext\jfxrt.jar
+  [+] C:\Program Files\Java\jre1.8.0_65\lib\ext\localedata.jar
+  [+] C:\Program Files\Java\jre1.8.0_65\lib\ext\nashorn.jar
+  [+] C:\Program Files\Java\jre1.8.0_65\lib\ext\sunec.jar
+  [+] C:\Program Files\Java\jre1.8.0_65\lib\ext\sunjce_provider.jar
+  [+] C:\Program Files\Java\jre1.8.0_65\lib\ext\sunmscapi.jar
+  [+] C:\Program Files\Java\jre1.8.0_65\lib\ext\sunpkcs11.jar
+  [+] C:\Program Files\Java\jre1.8.0_65\lib\ext\zipfs.jar
+  [+] C:\Program Files\Java\jre1.8.0_65\lib\jce.jar
+  [+] C:\Program Files\Java\jre1.8.0_65\lib\jfr.jar
+  [+] C:\Program Files\Java\jre1.8.0_65\lib\jsse.jar
+  [+] C:\Program Files\Java\jre1.8.0_65\lib\resources.jar
+  [+] C:\Program Files\Java\jre1.8.0_65\lib\rt.jar
+
+!STACK 0
+org.eclipse.recommenders.utils.Logs$LogTraceException
+	at org.eclipse.recommenders.utils.Logs$LogTraceException.newTrace(Logs.java:381)
+	at org.eclipse.recommenders.utils.Logs.log(Logs.java:134)
+	at org.eclipse.recommenders.internal.types.rcp.ProjectTypesIndex.needsRebuild(ProjectTypesIndex.java:170)
+	at org.eclipse.recommenders.internal.types.rcp.ProjectTypesIndex.startUp(ProjectTypesIndex.java:126)
+	at com.google.common.util.concurrent.AbstractIdleService$2$1.run(AbstractIdleService.java:54)
+	at com.google.common.util.concurrent.Callables$3.run(Callables.java:93)
+	at java.lang.Thread.run(Unknown Source)
+!SESSION 2015-11-17 09:51:56.014 -----------------------------------------------
+eclipse.buildId=4.5.1.M20150904-0015
+java.version=1.8.0_65
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2015-11-17 09:52:33.806
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Devi7'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.osgi 2 0 2015-11-17 09:52:40.187
+!MESSAGE While loading class "org.eclipse.m2e.jdt.internal.MavenClasspathContainerInitializer", thread "Thread[Worker-0,5,main]" timed out waiting (5026ms) for thread "Thread[Worker-6,5,main]" to finish starting bundle "org.eclipse.m2e.jdt_1.6.2.20150902-0002 [550]". To avoid deadlock, thread "Thread[Worker-0,5,main]" is proceeding but "org.eclipse.m2e.jdt.internal.MavenClasspathContainerInitializer" may not be fully initialized.
+!STACK 0
+org.osgi.framework.BundleException: Unable to acquire the state change lock for the module: osgi.identity; osgi.identity="org.eclipse.m2e.jdt"; type="osgi.bundle"; version:Version="1.6.2.20150902-0002"; singleton:="true" [id=550] STARTED [STARTED]
+	at org.eclipse.osgi.container.Module.lockStateChange(Module.java:329)
+	at org.eclipse.osgi.container.Module.start(Module.java:389)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:454)
+	at org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:107)
+	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findLocalClass(ClasspathManager.java:531)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.findLocalClass(ModuleClassLoader.java:324)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:327)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:402)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:352)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:344)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:160)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.loadClass(EquinoxBundle.java:573)
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.createExecutableExtension(RegistryStrategyOSGI.java:174)
+	at org.eclipse.core.internal.registry.ExtensionRegistry.createExecutableExtension(ExtensionRegistry.java:905)
+	at org.eclipse.core.internal.registry.ConfigurationElement.createExecutableExtension(ConfigurationElement.java:243)
+	at org.eclipse.core.internal.registry.ConfigurationElementHandle.createExecutableExtension(ConfigurationElementHandle.java:55)
+	at org.eclipse.jdt.core.JavaCore.computeClasspathContainerInitializer(JavaCore.java:3345)
+	at org.eclipse.jdt.core.JavaCore.getClasspathContainerInitializer(JavaCore.java:3321)
+	at org.eclipse.jdt.internal.core.JavaModelManager.initializeContainer(JavaModelManager.java:2849)
+	at org.eclipse.jdt.internal.core.JavaModelManager$10.run(JavaModelManager.java:2774)
+	at org.eclipse.jdt.internal.core.JavaModelManager.initializeAllContainers(JavaModelManager.java:2812)
+	at org.eclipse.jdt.internal.core.JavaModelManager.getClasspathContainer(JavaModelManager.java:1895)
+	at org.eclipse.jdt.core.JavaCore.getClasspathContainer(JavaCore.java:3298)
+	at org.eclipse.jdt.internal.core.JavaProject.resolveClasspath(JavaProject.java:2693)
+	at org.eclipse.jdt.internal.core.JavaProject.resolveClasspath(JavaProject.java:2857)
+	at org.eclipse.jdt.internal.core.JavaProject.getResolvedClasspath(JavaProject.java:1962)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.createExternalArchiveDelta(DeltaProcessor.java:933)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.checkExternalArchiveChanges(DeltaProcessor.java:804)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.resourceChanged(DeltaProcessor.java:2003)
+	at org.eclipse.jdt.internal.core.DeltaProcessingState.resourceChanged(DeltaProcessingState.java:477)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:299)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:289)
+	at org.eclipse.core.internal.events.NotificationManager.handleEvent(NotificationManager.java:271)
+	at org.eclipse.core.internal.resources.Workspace.broadcastEvent(Workspace.java:368)
+	at org.eclipse.core.internal.resources.Resource.refreshLocal(Resource.java:1592)
+	at org.eclipse.rse.internal.files.ui.resources.SystemRemoteEditManager.refreshRemoteEditProject(SystemRemoteEditManager.java:794)
+	at org.eclipse.rse.internal.files.ui.Activator$InitRemoteEditJob.run(Activator.java:77)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.recommenders.types.rcp 1 3 2015-11-17 11:09:34.986
+!MESSAGE Full project indexing required:
+  [+] C:\Program Files\Java\jre1.8.0_65\lib\charsets.jar
+  [+] C:\Program Files\Java\jre1.8.0_65\lib\ext\access-bridge-64.jar
+  [+] C:\Program Files\Java\jre1.8.0_65\lib\ext\cldrdata.jar
+  [+] C:\Program Files\Java\jre1.8.0_65\lib\ext\dnsns.jar
+  [+] C:\Program Files\Java\jre1.8.0_65\lib\ext\jaccess.jar
+  [+] C:\Program Files\Java\jre1.8.0_65\lib\ext\jfxrt.jar
+  [+] C:\Program Files\Java\jre1.8.0_65\lib\ext\localedata.jar
+  [+] C:\Program Files\Java\jre1.8.0_65\lib\ext\nashorn.jar
+  [+] C:\Program Files\Java\jre1.8.0_65\lib\ext\sunec.jar
+  [+] C:\Program Files\Java\jre1.8.0_65\lib\ext\sunjce_provider.jar
+  [+] C:\Program Files\Java\jre1.8.0_65\lib\ext\sunmscapi.jar
+  [+] C:\Program Files\Java\jre1.8.0_65\lib\ext\sunpkcs11.jar
+  [+] C:\Program Files\Java\jre1.8.0_65\lib\ext\zipfs.jar
+  [+] C:\Program Files\Java\jre1.8.0_65\lib\jce.jar
+  [+] C:\Program Files\Java\jre1.8.0_65\lib\jfr.jar
+  [+] C:\Program Files\Java\jre1.8.0_65\lib\jsse.jar
+  [+] C:\Program Files\Java\jre1.8.0_65\lib\resources.jar
+  [+] C:\Program Files\Java\jre1.8.0_65\lib\rt.jar
+
+!STACK 0
+org.eclipse.recommenders.utils.Logs$LogTraceException
+	at org.eclipse.recommenders.utils.Logs$LogTraceException.newTrace(Logs.java:381)
+	at org.eclipse.recommenders.utils.Logs.log(Logs.java:134)
+	at org.eclipse.recommenders.internal.types.rcp.ProjectTypesIndex.needsRebuild(ProjectTypesIndex.java:170)
+	at org.eclipse.recommenders.internal.types.rcp.ProjectTypesIndex.startUp(ProjectTypesIndex.java:126)
+	at com.google.common.util.concurrent.AbstractIdleService$2$1.run(AbstractIdleService.java:54)
+	at com.google.common.util.concurrent.Callables$3.run(Callables.java:93)
+	at java.lang.Thread.run(Unknown Source)
+!SESSION 2015-11-18 11:35:52.938 -----------------------------------------------
+eclipse.buildId=4.5.1.M20150904-0015
+java.version=1.8.0_65
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2015-11-18 11:37:30.737
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Devi7'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.recommenders.types.rcp 1 3 2015-11-18 11:39:25.063
+!MESSAGE Full project indexing required:
+  [+] C:\Program Files\Java\jre1.8.0_65\lib\charsets.jar
+  [+] C:\Program Files\Java\jre1.8.0_65\lib\ext\access-bridge-64.jar
+  [+] C:\Program Files\Java\jre1.8.0_65\lib\ext\cldrdata.jar
+  [+] C:\Program Files\Java\jre1.8.0_65\lib\ext\dnsns.jar
+  [+] C:\Program Files\Java\jre1.8.0_65\lib\ext\jaccess.jar
+  [+] C:\Program Files\Java\jre1.8.0_65\lib\ext\jfxrt.jar
+  [+] C:\Program Files\Java\jre1.8.0_65\lib\ext\localedata.jar
+  [+] C:\Program Files\Java\jre1.8.0_65\lib\ext\nashorn.jar
+  [+] C:\Program Files\Java\jre1.8.0_65\lib\ext\sunec.jar
+  [+] C:\Program Files\Java\jre1.8.0_65\lib\ext\sunjce_provider.jar
+  [+] C:\Program Files\Java\jre1.8.0_65\lib\ext\sunmscapi.jar
+  [+] C:\Program Files\Java\jre1.8.0_65\lib\ext\sunpkcs11.jar
+  [+] C:\Program Files\Java\jre1.8.0_65\lib\ext\zipfs.jar
+  [+] C:\Program Files\Java\jre1.8.0_65\lib\jce.jar
+  [+] C:\Program Files\Java\jre1.8.0_65\lib\jfr.jar
+  [+] C:\Program Files\Java\jre1.8.0_65\lib\jsse.jar
+  [+] C:\Program Files\Java\jre1.8.0_65\lib\resources.jar
+  [+] C:\Program Files\Java\jre1.8.0_65\lib\rt.jar
+
+!STACK 0
+org.eclipse.recommenders.utils.Logs$LogTraceException
+	at org.eclipse.recommenders.utils.Logs$LogTraceException.newTrace(Logs.java:381)
+	at org.eclipse.recommenders.utils.Logs.log(Logs.java:134)
+	at org.eclipse.recommenders.internal.types.rcp.ProjectTypesIndex.needsRebuild(ProjectTypesIndex.java:170)
+	at org.eclipse.recommenders.internal.types.rcp.ProjectTypesIndex.startUp(ProjectTypesIndex.java:126)
+	at com.google.common.util.concurrent.AbstractIdleService$2$1.run(AbstractIdleService.java:54)
+	at com.google.common.util.concurrent.Callables$3.run(Callables.java:93)
+	at java.lang.Thread.run(Unknown Source)
+
+!ENTRY org.eclipse.wst.server.discovery 1 0 2015-11-18 12:36:56.881
+!MESSAGE cacheFile=file:/D:/development/Java/javamarius/.metadata/.plugins/org.eclipse.wst.server.discovery/serverAdapterSitesDetails.xml
+
+!ENTRY org.eclipse.recommenders.types.rcp 1 3 2015-11-18 12:41:27.065
+!MESSAGE Full project indexing required:
+  [+] C:\Program Files\Java\jre1.8.0_65\lib\charsets.jar
+  [+] C:\Program Files\Java\jre1.8.0_65\lib\ext\access-bridge-64.jar
+  [+] C:\Program Files\Java\jre1.8.0_65\lib\ext\cldrdata.jar
+  [+] C:\Program Files\Java\jre1.8.0_65\lib\ext\dnsns.jar
+  [+] C:\Program Files\Java\jre1.8.0_65\lib\ext\jaccess.jar
+  [+] C:\Program Files\Java\jre1.8.0_65\lib\ext\jfxrt.jar
+  [+] C:\Program Files\Java\jre1.8.0_65\lib\ext\localedata.jar
+  [+] C:\Program Files\Java\jre1.8.0_65\lib\ext\nashorn.jar
+  [+] C:\Program Files\Java\jre1.8.0_65\lib\ext\sunec.jar
+  [+] C:\Program Files\Java\jre1.8.0_65\lib\ext\sunjce_provider.jar
+  [+] C:\Program Files\Java\jre1.8.0_65\lib\ext\sunmscapi.jar
+  [+] C:\Program Files\Java\jre1.8.0_65\lib\ext\sunpkcs11.jar
+  [+] C:\Program Files\Java\jre1.8.0_65\lib\ext\zipfs.jar
+  [+] C:\Program Files\Java\jre1.8.0_65\lib\jce.jar
+  [+] C:\Program Files\Java\jre1.8.0_65\lib\jfr.jar
+  [+] C:\Program Files\Java\jre1.8.0_65\lib\jsse.jar
+  [+] C:\Program Files\Java\jre1.8.0_65\lib\resources.jar
+  [+] C:\Program Files\Java\jre1.8.0_65\lib\rt.jar
+  [+] D:\development\Java\librarii\mysql-connector-java-5.1.37-bin.jar
+  [+] D:\development\servs\apache-tomcat-7.0.57\lib\annotations-api.jar
+  [+] D:\development\servs\apache-tomcat-7.0.57\lib\catalina-ant.jar
+  [+] D:\development\servs\apache-tomcat-7.0.57\lib\catalina-ha.jar
+  [+] D:\development\servs\apache-tomcat-7.0.57\lib\catalina-tribes.jar
+  [+] D:\development\servs\apache-tomcat-7.0.57\lib\catalina.jar
+  [+] D:\development\servs\apache-tomcat-7.0.57\lib\ecj-4.4.jar
+  [+] D:\development\servs\apache-tomcat-7.0.57\lib\el-api.jar
+  [+] D:\development\servs\apache-tomcat-7.0.57\lib\jasper-el.jar
+  [+] D:\development\servs\apache-tomcat-7.0.57\lib\jasper.jar
+  [+] D:\development\servs\apache-tomcat-7.0.57\lib\jsp-api.jar
+  [+] D:\development\servs\apache-tomcat-7.0.57\lib\servlet-api.jar
+  [+] D:\development\servs\apache-tomcat-7.0.57\lib\tomcat-api.jar
+  [+] D:\development\servs\apache-tomcat-7.0.57\lib\tomcat-coyote.jar
+  [+] D:\development\servs\apache-tomcat-7.0.57\lib\tomcat-dbcp.jar
+  [+] D:\development\servs\apache-tomcat-7.0.57\lib\tomcat-i18n-es.jar
+  [+] D:\development\servs\apache-tomcat-7.0.57\lib\tomcat-i18n-fr.jar
+  [+] D:\development\servs\apache-tomcat-7.0.57\lib\tomcat-i18n-ja.jar
+  [+] D:\development\servs\apache-tomcat-7.0.57\lib\tomcat-jdbc.jar
+  [+] D:\development\servs\apache-tomcat-7.0.57\lib\tomcat-util.jar
+  [+] D:\development\servs\apache-tomcat-7.0.57\lib\tomcat7-websocket.jar
+  [+] D:\development\servs\apache-tomcat-7.0.57\lib\websocket-api.jar
+
+!STACK 0
+org.eclipse.recommenders.utils.Logs$LogTraceException
+	at org.eclipse.recommenders.utils.Logs$LogTraceException.newTrace(Logs.java:381)
+	at org.eclipse.recommenders.utils.Logs.log(Logs.java:134)
+	at org.eclipse.recommenders.internal.types.rcp.ProjectTypesIndex.needsRebuild(ProjectTypesIndex.java:170)
+	at org.eclipse.recommenders.internal.types.rcp.ProjectTypesIndex.startUp(ProjectTypesIndex.java:126)
+	at com.google.common.util.concurrent.AbstractIdleService$2$1.run(AbstractIdleService.java:54)
+	at com.google.common.util.concurrent.Callables$3.run(Callables.java:93)
+	at java.lang.Thread.run(Unknown Source)
+!SESSION 2015-11-23 09:08:33.435 -----------------------------------------------
+eclipse.buildId=4.5.1.M20150904-0015
+java.version=1.8.0_65
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2015-11-23 09:16:24.301
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Devi7'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.osgi 2 0 2015-11-23 09:16:30.197
+!MESSAGE While loading class "org.eclipse.m2e.jdt.internal.MavenClasspathContainerInitializer", thread "Thread[Worker-6,5,main]" timed out waiting (5032ms) for thread "Thread[Worker-1,5,main]" to finish starting bundle "org.eclipse.m2e.jdt_1.6.2.20150902-0002 [550]". To avoid deadlock, thread "Thread[Worker-6,5,main]" is proceeding but "org.eclipse.m2e.jdt.internal.MavenClasspathContainerInitializer" may not be fully initialized.
+!STACK 0
+org.osgi.framework.BundleException: Unable to acquire the state change lock for the module: osgi.identity; osgi.identity="org.eclipse.m2e.jdt"; type="osgi.bundle"; version:Version="1.6.2.20150902-0002"; singleton:="true" [id=550] STARTED [STARTED]
+	at org.eclipse.osgi.container.Module.lockStateChange(Module.java:329)
+	at org.eclipse.osgi.container.Module.start(Module.java:389)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:454)
+	at org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:107)
+	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findLocalClass(ClasspathManager.java:531)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.findLocalClass(ModuleClassLoader.java:324)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:327)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:402)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:352)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:344)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:160)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.loadClass(EquinoxBundle.java:573)
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.createExecutableExtension(RegistryStrategyOSGI.java:174)
+	at org.eclipse.core.internal.registry.ExtensionRegistry.createExecutableExtension(ExtensionRegistry.java:905)
+	at org.eclipse.core.internal.registry.ConfigurationElement.createExecutableExtension(ConfigurationElement.java:243)
+	at org.eclipse.core.internal.registry.ConfigurationElementHandle.createExecutableExtension(ConfigurationElementHandle.java:55)
+	at org.eclipse.jdt.core.JavaCore.computeClasspathContainerInitializer(JavaCore.java:3345)
+	at org.eclipse.jdt.core.JavaCore.getClasspathContainerInitializer(JavaCore.java:3321)
+	at org.eclipse.jdt.internal.core.JavaModelManager.initializeContainer(JavaModelManager.java:2849)
+	at org.eclipse.jdt.internal.core.JavaModelManager$10.run(JavaModelManager.java:2774)
+	at org.eclipse.jdt.internal.core.JavaModelManager.initializeAllContainers(JavaModelManager.java:2812)
+	at org.eclipse.jdt.internal.core.JavaModelManager.getClasspathContainer(JavaModelManager.java:1895)
+	at org.eclipse.jdt.core.JavaCore.getClasspathContainer(JavaCore.java:3298)
+	at org.eclipse.jdt.internal.core.JavaProject.resolveClasspath(JavaProject.java:2693)
+	at org.eclipse.jdt.internal.core.JavaProject.resolveClasspath(JavaProject.java:2857)
+	at org.eclipse.jdt.internal.core.ClasspathChange.generateDelta(ClasspathChange.java:235)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.resourceChanged(DeltaProcessor.java:2032)
+	at org.eclipse.jdt.internal.core.DeltaProcessingState.resourceChanged(DeltaProcessingState.java:477)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:299)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:289)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:152)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:373)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1470)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2250)
+	at org.eclipse.core.internal.events.NotificationManager$NotifyJob.run(NotificationManager.java:43)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.recommenders.types.rcp 1 3 2015-11-23 11:12:32.941
+!MESSAGE Full project indexing required:
+  [+] C:\Program Files\Java\jre1.8.0_65\lib\charsets.jar
+  [+] C:\Program Files\Java\jre1.8.0_65\lib\ext\access-bridge-64.jar
+  [+] C:\Program Files\Java\jre1.8.0_65\lib\ext\cldrdata.jar
+  [+] C:\Program Files\Java\jre1.8.0_65\lib\ext\dnsns.jar
+  [+] C:\Program Files\Java\jre1.8.0_65\lib\ext\jaccess.jar
+  [+] C:\Program Files\Java\jre1.8.0_65\lib\ext\jfxrt.jar
+  [+] C:\Program Files\Java\jre1.8.0_65\lib\ext\localedata.jar
+  [+] C:\Program Files\Java\jre1.8.0_65\lib\ext\nashorn.jar
+  [+] C:\Program Files\Java\jre1.8.0_65\lib\ext\sunec.jar
+  [+] C:\Program Files\Java\jre1.8.0_65\lib\ext\sunjce_provider.jar
+  [+] C:\Program Files\Java\jre1.8.0_65\lib\ext\sunmscapi.jar
+  [+] C:\Program Files\Java\jre1.8.0_65\lib\ext\sunpkcs11.jar
+  [+] C:\Program Files\Java\jre1.8.0_65\lib\ext\zipfs.jar
+  [+] C:\Program Files\Java\jre1.8.0_65\lib\jce.jar
+  [+] C:\Program Files\Java\jre1.8.0_65\lib\jfr.jar
+  [+] C:\Program Files\Java\jre1.8.0_65\lib\jsse.jar
+  [+] C:\Program Files\Java\jre1.8.0_65\lib\resources.jar
+  [+] C:\Program Files\Java\jre1.8.0_65\lib\rt.jar
+  [+] C:\Users\Devi7\.m2\repository\junit\junit\3.8.1\junit-3.8.1.jar
+  [+] C:\Users\Devi7\.m2\repository\org\facebook4j\facebook4j-core\2.3.2\facebook4j-core-2.3.2.jar
+
+!STACK 0
+org.eclipse.recommenders.utils.Logs$LogTraceException
+	at org.eclipse.recommenders.utils.Logs$LogTraceException.newTrace(Logs.java:381)
+	at org.eclipse.recommenders.utils.Logs.log(Logs.java:134)
+	at org.eclipse.recommenders.internal.types.rcp.ProjectTypesIndex.needsRebuild(ProjectTypesIndex.java:170)
+	at org.eclipse.recommenders.internal.types.rcp.ProjectTypesIndex.startUp(ProjectTypesIndex.java:126)
+	at com.google.common.util.concurrent.AbstractIdleService$2$1.run(AbstractIdleService.java:54)
+	at com.google.common.util.concurrent.Callables$3.run(Callables.java:93)
+	at java.lang.Thread.run(Unknown Source)
+!SESSION 2015-11-23 12:13:59.306 -----------------------------------------------
+eclipse.buildId=4.5.1.M20150904-0015
+java.version=1.8.0_65
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2015-11-23 12:14:48.659
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Devi7'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2015-11-24 09:36:08.892 -----------------------------------------------
+eclipse.buildId=4.5.1.M20150904-0015
+java.version=1.8.0_65
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2015-11-24 09:36:59.724
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Devi7'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.recommenders.types.rcp 1 3 2015-11-24 09:48:19.016
+!MESSAGE Full project indexing required:
+  [+] C:\Users\Devi7\.m2\repository\com\restfb\restfb\1.16.0\restfb-1.16.0.jar
+
+!STACK 0
+org.eclipse.recommenders.utils.Logs$LogTraceException
+	at org.eclipse.recommenders.utils.Logs$LogTraceException.newTrace(Logs.java:381)
+	at org.eclipse.recommenders.utils.Logs.log(Logs.java:134)
+	at org.eclipse.recommenders.internal.types.rcp.ProjectTypesIndex.needsRebuild(ProjectTypesIndex.java:170)
+	at org.eclipse.recommenders.internal.types.rcp.ProjectTypesIndex.startUp(ProjectTypesIndex.java:126)
+	at com.google.common.util.concurrent.AbstractIdleService$2$1.run(AbstractIdleService.java:54)
+	at com.google.common.util.concurrent.Callables$3.run(Callables.java:93)
+	at java.lang.Thread.run(Unknown Source)
+
+!ENTRY org.eclipse.recommenders.rcp 4 5 2015-11-24 09:48:32.179
+!MESSAGE Failed to resolve selection in ‘=FBTest/src\/main\/java<app{ConfigREST.java’ at offset 1,326
+!STACK 0
+org.eclipse.recommenders.utils.Logs$LogTraceException
+	at org.eclipse.recommenders.utils.Logs$LogTraceException.newTrace(Logs.java:381)
+	at org.eclipse.recommenders.utils.Logs.log(Logs.java:134)
+	at org.eclipse.recommenders.internal.rcp.JavaElementSelections.resolveJavaElementFromTypeRootInEditor(JavaElementSelections.java:164)
+	at org.eclipse.recommenders.internal.rcp.JavaElementSelections.resolveJavaElementFromEditor(JavaElementSelections.java:119)
+	at org.eclipse.recommenders.internal.rcp.JavaElementSelections.resolveJavaElementFromEditor(JavaElementSelections.java:102)
+	at org.eclipse.recommenders.internal.rcp.JavaElementSelectionService.handleSelectionInEditor(JavaElementSelectionService.java:108)
+	at org.eclipse.recommenders.internal.rcp.JavaElementSelectionService.access$1(JavaElementSelectionService.java:105)
+	at org.eclipse.recommenders.internal.rcp.JavaElementSelectionService$1.run(JavaElementSelectionService.java:82)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+!ENTRY org.eclipse.recommenders.types.rcp 1 3 2015-11-24 10:35:30.938
+!MESSAGE Full project indexing required:
+  [+] C:\Program Files\Java\jre1.8.0_65\lib\charsets.jar
+  [+] C:\Program Files\Java\jre1.8.0_65\lib\ext\access-bridge-64.jar
+  [+] C:\Program Files\Java\jre1.8.0_65\lib\ext\cldrdata.jar
+  [+] C:\Program Files\Java\jre1.8.0_65\lib\ext\dnsns.jar
+  [+] C:\Program Files\Java\jre1.8.0_65\lib\ext\jaccess.jar
+  [+] C:\Program Files\Java\jre1.8.0_65\lib\ext\jfxrt.jar
+  [+] C:\Program Files\Java\jre1.8.0_65\lib\ext\localedata.jar
+  [+] C:\Program Files\Java\jre1.8.0_65\lib\ext\nashorn.jar
+  [+] C:\Program Files\Java\jre1.8.0_65\lib\ext\sunec.jar
+  [+] C:\Program Files\Java\jre1.8.0_65\lib\ext\sunjce_provider.jar
+  [+] C:\Program Files\Java\jre1.8.0_65\lib\ext\sunmscapi.jar
+  [+] C:\Program Files\Java\jre1.8.0_65\lib\ext\sunpkcs11.jar
+  [+] C:\Program Files\Java\jre1.8.0_65\lib\ext\zipfs.jar
+  [+] C:\Program Files\Java\jre1.8.0_65\lib\jce.jar
+  [+] C:\Program Files\Java\jre1.8.0_65\lib\jfr.jar
+  [+] C:\Program Files\Java\jre1.8.0_65\lib\jsse.jar
+  [+] C:\Program Files\Java\jre1.8.0_65\lib\resources.jar
+  [+] C:\Program Files\Java\jre1.8.0_65\lib\rt.jar
+  [+] D:\development\servs\apache-tomcat-7.0.57\lib\annotations-api.jar
+  [+] D:\development\servs\apache-tomcat-7.0.57\lib\catalina-ant.jar
+  [+] D:\development\servs\apache-tomcat-7.0.57\lib\catalina-ha.jar
+  [+] D:\development\servs\apache-tomcat-7.0.57\lib\catalina-tribes.jar
+  [+] D:\development\servs\apache-tomcat-7.0.57\lib\catalina.jar
+  [+] D:\development\servs\apache-tomcat-7.0.57\lib\ecj-4.4.jar
+  [+] D:\development\servs\apache-tomcat-7.0.57\lib\el-api.jar
+  [+] D:\development\servs\apache-tomcat-7.0.57\lib\jasper-el.jar
+  [+] D:\development\servs\apache-tomcat-7.0.57\lib\jasper.jar
+  [+] D:\development\servs\apache-tomcat-7.0.57\lib\jsp-api.jar
+  [+] D:\development\servs\apache-tomcat-7.0.57\lib\servlet-api.jar
+  [+] D:\development\servs\apache-tomcat-7.0.57\lib\tomcat-api.jar
+  [+] D:\development\servs\apache-tomcat-7.0.57\lib\tomcat-coyote.jar
+  [+] D:\development\servs\apache-tomcat-7.0.57\lib\tomcat-dbcp.jar
+  [+] D:\development\servs\apache-tomcat-7.0.57\lib\tomcat-i18n-es.jar
+  [+] D:\development\servs\apache-tomcat-7.0.57\lib\tomcat-i18n-fr.jar
+  [+] D:\development\servs\apache-tomcat-7.0.57\lib\tomcat-i18n-ja.jar
+  [+] D:\development\servs\apache-tomcat-7.0.57\lib\tomcat-jdbc.jar
+  [+] D:\development\servs\apache-tomcat-7.0.57\lib\tomcat-util.jar
+  [+] D:\development\servs\apache-tomcat-7.0.57\lib\tomcat7-websocket.jar
+  [+] D:\development\servs\apache-tomcat-7.0.57\lib\websocket-api.jar
+
+!STACK 0
+org.eclipse.recommenders.utils.Logs$LogTraceException
+	at org.eclipse.recommenders.utils.Logs$LogTraceException.newTrace(Logs.java:381)
+	at org.eclipse.recommenders.utils.Logs.log(Logs.java:134)
+	at org.eclipse.recommenders.internal.types.rcp.ProjectTypesIndex.needsRebuild(ProjectTypesIndex.java:170)
+	at org.eclipse.recommenders.internal.types.rcp.ProjectTypesIndex.startUp(ProjectTypesIndex.java:126)
+	at com.google.common.util.concurrent.AbstractIdleService$2$1.run(AbstractIdleService.java:54)
+	at com.google.common.util.concurrent.Callables$3.run(Callables.java:93)
+	at java.lang.Thread.run(Unknown Source)
+!SESSION 2015-11-25 09:52:05.399 -----------------------------------------------
+eclipse.buildId=4.5.1.M20150904-0015
+java.version=1.8.0_65
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2015-11-25 09:54:11.782
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Devi7'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.recommenders.types.rcp 1 3 2015-11-25 10:24:39.653
+!MESSAGE Full project indexing required:
+  [+] C:\Program Files\Java\jre1.8.0_65\lib\charsets.jar
+  [+] C:\Program Files\Java\jre1.8.0_65\lib\ext\access-bridge-64.jar
+  [+] C:\Program Files\Java\jre1.8.0_65\lib\ext\cldrdata.jar
+  [+] C:\Program Files\Java\jre1.8.0_65\lib\ext\dnsns.jar
+  [+] C:\Program Files\Java\jre1.8.0_65\lib\ext\jaccess.jar
+  [+] C:\Program Files\Java\jre1.8.0_65\lib\ext\jfxrt.jar
+  [+] C:\Program Files\Java\jre1.8.0_65\lib\ext\localedata.jar
+  [+] C:\Program Files\Java\jre1.8.0_65\lib\ext\nashorn.jar
+  [+] C:\Program Files\Java\jre1.8.0_65\lib\ext\sunec.jar
+  [+] C:\Program Files\Java\jre1.8.0_65\lib\ext\sunjce_provider.jar
+  [+] C:\Program Files\Java\jre1.8.0_65\lib\ext\sunmscapi.jar
+  [+] C:\Program Files\Java\jre1.8.0_65\lib\ext\sunpkcs11.jar
+  [+] C:\Program Files\Java\jre1.8.0_65\lib\ext\zipfs.jar
+  [+] C:\Program Files\Java\jre1.8.0_65\lib\jce.jar
+  [+] C:\Program Files\Java\jre1.8.0_65\lib\jfr.jar
+  [+] C:\Program Files\Java\jre1.8.0_65\lib\jsse.jar
+  [+] C:\Program Files\Java\jre1.8.0_65\lib\resources.jar
+  [+] C:\Program Files\Java\jre1.8.0_65\lib\rt.jar
+
+!STACK 0
+org.eclipse.recommenders.utils.Logs$LogTraceException
+	at org.eclipse.recommenders.utils.Logs$LogTraceException.newTrace(Logs.java:381)
+	at org.eclipse.recommenders.utils.Logs.log(Logs.java:134)
+	at org.eclipse.recommenders.internal.types.rcp.ProjectTypesIndex.needsRebuild(ProjectTypesIndex.java:170)
+	at org.eclipse.recommenders.internal.types.rcp.ProjectTypesIndex.startUp(ProjectTypesIndex.java:126)
+	at com.google.common.util.concurrent.AbstractIdleService$2$1.run(AbstractIdleService.java:54)
+	at com.google.common.util.concurrent.Callables$3.run(Callables.java:93)
+	at java.lang.Thread.run(Unknown Source)
+
+!ENTRY org.eclipse.recommenders.types.rcp 1 3 2015-11-25 10:27:55.994
+!MESSAGE Full project indexing required:
+  [+] D:\development\Java\librarii\mysql-connector-java-5.1.37-bin.jar
+
+!STACK 0
+org.eclipse.recommenders.utils.Logs$LogTraceException
+	at org.eclipse.recommenders.utils.Logs$LogTraceException.newTrace(Logs.java:381)
+	at org.eclipse.recommenders.utils.Logs.log(Logs.java:134)
+	at org.eclipse.recommenders.internal.types.rcp.ProjectTypesIndex.needsRebuild(ProjectTypesIndex.java:170)
+	at org.eclipse.recommenders.internal.types.rcp.ProjectTypesIndex.suggestRebuild(ProjectTypesIndex.java:464)
+	at org.eclipse.recommenders.internal.types.rcp.TypesIndexService.rebuildIndex(TypesIndexService.java:120)
+	at org.eclipse.recommenders.internal.types.rcp.TypesIndexService.process(TypesIndexService.java:57)
+	at org.eclipse.recommenders.internal.types.rcp.TypesIndexService.process(TypesIndexService.java:63)
+	at org.eclipse.recommenders.internal.types.rcp.TypesIndexService.elementChanged(TypesIndexService.java:49)
+	at org.eclipse.jdt.internal.core.DeltaProcessor$3.run(DeltaProcessor.java:1662)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.notifyListeners(DeltaProcessor.java:1652)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.firePostChangeDelta(DeltaProcessor.java:1486)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.fire(DeltaProcessor.java:1462)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.resourceChanged(DeltaProcessor.java:2074)
+	at org.eclipse.jdt.internal.core.DeltaProcessingState.resourceChanged(DeltaProcessingState.java:477)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:299)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:289)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:152)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:373)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1470)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2250)
+	at org.eclipse.jdt.core.JavaCore.run(JavaCore.java:5409)
+	at org.eclipse.jdt.internal.ui.actions.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:106)
+	at org.eclipse.jdt.internal.ui.actions.WorkbenchRunnableAdapter$1.run(WorkbenchRunnableAdapter.java:122)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SESSION 2015-11-29 18:02:05.573 -----------------------------------------------
+eclipse.buildId=4.5.1.M20150904-0015
+java.version=1.8.0_65
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2015-11-29 18:02:59.089
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Devi7'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.osgi 2 0 2015-11-29 18:03:04.760
+!MESSAGE While loading class "org.eclipse.m2e.jdt.internal.MavenClasspathContainerInitializer", thread "Thread[Worker-3,5,main]" timed out waiting (5017ms) for thread "Thread[Worker-9,5,main]" to finish starting bundle "org.eclipse.m2e.jdt_1.6.2.20150902-0002 [550]". To avoid deadlock, thread "Thread[Worker-3,5,main]" is proceeding but "org.eclipse.m2e.jdt.internal.MavenClasspathContainerInitializer" may not be fully initialized.
+!STACK 0
+org.osgi.framework.BundleException: Unable to acquire the state change lock for the module: osgi.identity; osgi.identity="org.eclipse.m2e.jdt"; type="osgi.bundle"; version:Version="1.6.2.20150902-0002"; singleton:="true" [id=550] STARTED [STARTED]
+	at org.eclipse.osgi.container.Module.lockStateChange(Module.java:329)
+	at org.eclipse.osgi.container.Module.start(Module.java:389)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:454)
+	at org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:107)
+	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findLocalClass(ClasspathManager.java:531)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.findLocalClass(ModuleClassLoader.java:324)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:327)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:402)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:352)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:344)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:160)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.loadClass(EquinoxBundle.java:573)
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.createExecutableExtension(RegistryStrategyOSGI.java:174)
+	at org.eclipse.core.internal.registry.ExtensionRegistry.createExecutableExtension(ExtensionRegistry.java:905)
+	at org.eclipse.core.internal.registry.ConfigurationElement.createExecutableExtension(ConfigurationElement.java:243)
+	at org.eclipse.core.internal.registry.ConfigurationElementHandle.createExecutableExtension(ConfigurationElementHandle.java:55)
+	at org.eclipse.jdt.core.JavaCore.computeClasspathContainerInitializer(JavaCore.java:3345)
+	at org.eclipse.jdt.core.JavaCore.getClasspathContainerInitializer(JavaCore.java:3321)
+	at org.eclipse.jdt.internal.core.JavaModelManager.initializeContainer(JavaModelManager.java:2849)
+	at org.eclipse.jdt.internal.core.JavaModelManager$10.run(JavaModelManager.java:2774)
+	at org.eclipse.jdt.internal.core.JavaModelManager.initializeAllContainers(JavaModelManager.java:2812)
+	at org.eclipse.jdt.internal.core.JavaModelManager.getClasspathContainer(JavaModelManager.java:1895)
+	at org.eclipse.jdt.core.JavaCore.getClasspathContainer(JavaCore.java:3298)
+	at org.eclipse.jdt.internal.core.JavaProject.resolveClasspath(JavaProject.java:2693)
+	at org.eclipse.jdt.internal.core.JavaProject.resolveClasspath(JavaProject.java:2857)
+	at org.eclipse.jdt.internal.core.ClasspathChange.generateDelta(ClasspathChange.java:235)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.resourceChanged(DeltaProcessor.java:2032)
+	at org.eclipse.jdt.internal.core.DeltaProcessingState.resourceChanged(DeltaProcessingState.java:477)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:299)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:289)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:152)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:373)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1470)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2250)
+	at org.eclipse.core.internal.events.NotificationManager$NotifyJob.run(NotificationManager.java:43)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.wst.common.project.facet.core 4 0 2015-11-29 18:33:38.053
+!MESSAGE Failed while installing Dynamic Web Module 3.0.
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.jst.jee.model.internal.WebAnnotationReader.analyzeCompilationUnit(WebAnnotationReader.java:144)
+	at org.eclipse.jst.jee.model.internal.WebAnnotationReader.loadModel(WebAnnotationReader.java:99)
+	at org.eclipse.jst.jee.model.internal.common.AbstractAnnotationModelProvider.getConcreteModel(AbstractAnnotationModelProvider.java:111)
+	at org.eclipse.jst.jee.model.internal.common.AbstractAnnotationModelProvider.getModelObject(AbstractAnnotationModelProvider.java:127)
+	at org.eclipse.jst.jee.model.internal.common.AbstractMergedModelProvider.loadProviders(AbstractMergedModelProvider.java:265)
+	at org.eclipse.jst.jee.model.internal.common.AbstractMergedModelProvider.access$2(AbstractMergedModelProvider.java:255)
+	at org.eclipse.jst.jee.model.internal.common.AbstractMergedModelProvider$LoadModelsWorkspaceRunnable.run(AbstractMergedModelProvider.java:278)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2241)
+	at org.eclipse.jst.jee.model.internal.common.AbstractMergedModelProvider.loadModel(AbstractMergedModelProvider.java:249)
+	at org.eclipse.jst.jee.model.internal.common.AbstractMergedModelProvider.getMergedModel(AbstractMergedModelProvider.java:219)
+	at org.eclipse.jst.jee.model.internal.Web25MergedModelProvider.modify(Web25MergedModelProvider.java:80)
+	at org.eclipse.jst.j2ee.web.project.facet.WebFacetInstallDelegate.populateDefaultContent(WebFacetInstallDelegate.java:311)
+	at org.eclipse.jst.j2ee.web.project.facet.WebFacetInstallDelegate.createWeb30DeploymentDescriptor(WebFacetInstallDelegate.java:257)
+	at org.eclipse.jst.j2ee.web.project.facet.WebFacetInstallDelegate.execute(WebFacetInstallDelegate.java:122)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProject.callDelegate(FacetedProject.java:1477)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProject.modifyInternal(FacetedProject.java:441)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProject.mergeChangesInternal(FacetedProject.java:1181)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProject.access$2(FacetedProject.java:1117)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProject$5.run(FacetedProject.java:1099)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2241)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProject.mergeChanges(FacetedProject.java:1109)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProjectWorkingCopy.commitChanges(FacetedProjectWorkingCopy.java:2020)
+	at org.eclipse.wst.common.project.facet.ui.internal.FacetsPropertyPage$4.run(FacetsPropertyPage.java:232)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2241)
+	at org.eclipse.wst.common.project.facet.ui.internal.FacetsPropertyPage$5.run(FacetsPropertyPage.java:246)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:119)
+!SESSION 2015-12-03 12:48:33.110 -----------------------------------------------
+eclipse.buildId=4.5.1.M20150904-0015
+java.version=1.8.0_65
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2015-12-03 12:50:02.176
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Devi7'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2015-12-04 10:55:29.015 -----------------------------------------------
+eclipse.buildId=4.5.1.M20150904-0015
+java.version=1.8.0_65
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2015-12-04 10:56:08.648
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Devi7'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.wst.common.project.facet.core 4 0 2015-12-04 11:10:42.592
+!MESSAGE Failed while installing Dynamic Web Module 3.0.
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.jst.jee.model.internal.WebAnnotationReader.analyzeCompilationUnit(WebAnnotationReader.java:144)
+	at org.eclipse.jst.jee.model.internal.WebAnnotationReader.loadModel(WebAnnotationReader.java:99)
+	at org.eclipse.jst.jee.model.internal.common.AbstractAnnotationModelProvider.getConcreteModel(AbstractAnnotationModelProvider.java:111)
+	at org.eclipse.jst.jee.model.internal.common.AbstractAnnotationModelProvider.getModelObject(AbstractAnnotationModelProvider.java:127)
+	at org.eclipse.jst.jee.model.internal.common.AbstractMergedModelProvider.loadProviders(AbstractMergedModelProvider.java:265)
+	at org.eclipse.jst.jee.model.internal.common.AbstractMergedModelProvider.access$2(AbstractMergedModelProvider.java:255)
+	at org.eclipse.jst.jee.model.internal.common.AbstractMergedModelProvider$LoadModelsWorkspaceRunnable.run(AbstractMergedModelProvider.java:278)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2241)
+	at org.eclipse.jst.jee.model.internal.common.AbstractMergedModelProvider.loadModel(AbstractMergedModelProvider.java:249)
+	at org.eclipse.jst.jee.model.internal.common.AbstractMergedModelProvider.getMergedModel(AbstractMergedModelProvider.java:219)
+	at org.eclipse.jst.jee.model.internal.Web25MergedModelProvider.modify(Web25MergedModelProvider.java:80)
+	at org.eclipse.jst.j2ee.web.project.facet.WebFacetInstallDelegate.populateDefaultContent(WebFacetInstallDelegate.java:311)
+	at org.eclipse.jst.j2ee.web.project.facet.WebFacetInstallDelegate.createWeb30DeploymentDescriptor(WebFacetInstallDelegate.java:257)
+	at org.eclipse.jst.j2ee.web.project.facet.WebFacetInstallDelegate.execute(WebFacetInstallDelegate.java:122)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProject.callDelegate(FacetedProject.java:1477)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProject.modifyInternal(FacetedProject.java:441)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProject.mergeChangesInternal(FacetedProject.java:1181)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProject.access$2(FacetedProject.java:1117)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProject$5.run(FacetedProject.java:1099)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2241)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProject.mergeChanges(FacetedProject.java:1109)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProjectWorkingCopy.commitChanges(FacetedProjectWorkingCopy.java:2020)
+	at org.eclipse.wst.common.project.facet.ui.internal.FacetsPropertyPage$4.run(FacetsPropertyPage.java:232)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2241)
+	at org.eclipse.wst.common.project.facet.ui.internal.FacetsPropertyPage$5.run(FacetsPropertyPage.java:246)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:119)
+!SESSION 2015-12-07 10:05:48.713 -----------------------------------------------
+eclipse.buildId=4.5.1.M20150904-0015
+java.version=1.8.0_65
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2015-12-07 10:07:08.775
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Devi7'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.epp.mpc.ui 1 0 2015-12-07 10:13:46.863
+!MESSAGE Performing Marketplace install request from http://marketplace.eclipse.org/marketplace-client-intro?mpc_install=1617241
+!SESSION 2015-12-07 10:16:16.326 -----------------------------------------------
+eclipse.buildId=4.5.1.M20150904-0015
+java.version=1.8.0_65
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product -data file:/D:/development/Java/javamarius/ -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.ui 2 2 2015-12-07 10:16:40.004
+!MESSAGE Invalid preference category path: org.jboss.tools.common.model.ui.MainPreferencePage (bundle: org.jboss.tools.common.jdt.debug.ui, page: org.jboss.tools.common.jdt.debug.ui.preferences.RemoteDebugPreferencePage)
+
+!ENTRY org.eclipse.ui 2 2 2015-12-07 10:16:40.011
+!MESSAGE Invalid preference category path: org.jboss.tools.common.model.ui.MainPreferencePage (bundle: org.jboss.tools.openshift.express.ui, page: org.jboss.tools.openshift.express.ui.preferences.OpenShiftPreferencePage)
+
+!ENTRY org.eclipse.ui 2 2 2015-12-07 10:16:40.012
+!MESSAGE Invalid preference category path: org.jboss.tools.common.model.ui.MainPreferencePage (bundle: org.jboss.tools.runtime.ui, page: org.jboss.tools.runtime.preferences.RuntimePreferencePage)
+
+!ENTRY org.eclipse.ui 2 2 2015-12-07 10:16:40.012
+!MESSAGE Invalid preference category path: org.jboss.tools.common.model.ui.MainPreferencePage (bundle: org.jboss.tools.usage, page: org.jboss.tools.usage.analytics.preferences.UsageAnalyticsPreferencePage)
+
+!ENTRY org.eclipse.egit.ui 2 0 2015-12-07 10:16:40.612
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Devi7'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.equinox.security 1 0 2015-12-07 10:29:07.950
+!MESSAGE New keyring password generated. 
+
+!ENTRY org.eclipse.recommenders.types.rcp 1 3 2015-12-07 11:26:11.948
+!MESSAGE Full project indexing required:
+  [+] C:\Program Files\Java\jre1.8.0_65\lib\charsets.jar
+  [+] C:\Program Files\Java\jre1.8.0_65\lib\ext\access-bridge-64.jar
+  [+] C:\Program Files\Java\jre1.8.0_65\lib\ext\cldrdata.jar
+  [+] C:\Program Files\Java\jre1.8.0_65\lib\ext\dnsns.jar
+  [+] C:\Program Files\Java\jre1.8.0_65\lib\ext\jaccess.jar
+  [+] C:\Program Files\Java\jre1.8.0_65\lib\ext\jfxrt.jar
+  [+] C:\Program Files\Java\jre1.8.0_65\lib\ext\localedata.jar
+  [+] C:\Program Files\Java\jre1.8.0_65\lib\ext\nashorn.jar
+  [+] C:\Program Files\Java\jre1.8.0_65\lib\ext\sunec.jar
+  [+] C:\Program Files\Java\jre1.8.0_65\lib\ext\sunjce_provider.jar
+  [+] C:\Program Files\Java\jre1.8.0_65\lib\ext\sunmscapi.jar
+  [+] C:\Program Files\Java\jre1.8.0_65\lib\ext\sunpkcs11.jar
+  [+] C:\Program Files\Java\jre1.8.0_65\lib\ext\zipfs.jar
+  [+] C:\Program Files\Java\jre1.8.0_65\lib\jce.jar
+  [+] C:\Program Files\Java\jre1.8.0_65\lib\jfr.jar
+  [+] C:\Program Files\Java\jre1.8.0_65\lib\jsse.jar
+  [+] C:\Program Files\Java\jre1.8.0_65\lib\resources.jar
+  [+] C:\Program Files\Java\jre1.8.0_65\lib\rt.jar
+  [+] C:\Users\Devi7\.m2\repository\javax\servlet\javax.servlet-api\3.0.1\javax.servlet-api-3.0.1.jar
+  [+] C:\Users\Devi7\.m2\repository\mysql\mysql-connector-java\5.1.25\mysql-connector-java-5.1.25.jar
+  [+] C:\Users\Devi7\.m2\repository\org\postgresql\postgresql\9.2-1003-jdbc4\postgresql-9.2-1003-jdbc4.jar
+
+!STACK 0
+org.eclipse.recommenders.utils.Logs$LogTraceException
+	at org.eclipse.recommenders.utils.Logs$LogTraceException.newTrace(Logs.java:381)
+	at org.eclipse.recommenders.utils.Logs.log(Logs.java:134)
+	at org.eclipse.recommenders.internal.types.rcp.ProjectTypesIndex.needsRebuild(ProjectTypesIndex.java:170)
+	at org.eclipse.recommenders.internal.types.rcp.ProjectTypesIndex.startUp(ProjectTypesIndex.java:126)
+	at com.google.common.util.concurrent.AbstractIdleService$2$1.run(AbstractIdleService.java:54)
+	at com.google.common.util.concurrent.Callables$3.run(Callables.java:93)
+	at java.lang.Thread.run(Unknown Source)

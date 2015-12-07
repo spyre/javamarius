@@ -1,0 +1,32 @@
+package app;
+
+import facebook4j.Facebook;
+import facebook4j.FacebookFactory;
+import facebook4j.conf.ConfigurationBuilder;
+
+public class TestFriends {
+
+
+	public static Facebook configurateFB() {
+		ConfigurationBuilder cb = new ConfigurationBuilder();
+		cb.setDebugEnabled(true)
+				// .setOAuthAppId("130450263976037")
+				.setOAuthAppId(ConfiguratieGlobala.APPID)
+				
+				// .setOAuthAppSecret("cd6c24949f40e6048d7e50b5a5bb44a8")
+				.setOAuthAppSecret(ConfiguratieGlobala.MY_APP_SECRET)
+				.setOAuthAccessToken(ConfiguratieGlobala.MY_ACCESS_TOKEN)
+				.setOAuthPermissions("publish_actions");
+		FacebookFactory ff = new FacebookFactory(cb.build());
+		Facebook facebook = ff.getInstance();
+		return facebook;
+	}
+	
+	public static void main(String[] args) {
+		
+		System.out.println("START");
+		Facebook fb = configurateFB();
+		
+		System.out.println("END");
+	}
+}

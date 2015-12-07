@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename local variable &apos;conn&apos; in &apos;ro.marius.MySQL_Java.App.main(...)&apos; to &apos;conexiune&apos;&#x0D;&#x0A;- Original project: &apos;MySQL_Java&apos;&#x0D;&#x0A;- Original element: &apos;ro.marius.MySQL_Java.App.main(String[]).conn&apos;&#x0D;&#x0A;- Renamed element: &apos;conn&apos;&#x0D;&#x0A;- Update references to refactored element" description="Rename local variable &apos;conn&apos;" id="org.eclipse.jdt.ui.rename.local.variable" input="/src\/main\/java&lt;ro.marius.MySQL_Java{App.java[App~main~\[QString;@conn!293!388!304!307!QConnection;!0!false" name="conexiune" references="true" stamp="1447229007337" version="1.0"/>
+</session>

@@ -1,0 +1,14 @@
+127.0.0.1 - - [18/Nov/2015:12:38:11 +0200] "GET / HTTP/1.1" 404 951
+127.0.0.1 - - [18/Nov/2015:12:38:12 +0200] "GET /LoginWeb/ HTTP/1.1" 404 969
+127.0.0.1 - - [18/Nov/2015:12:38:23 +0200] "GET /LoginWeb/register.html HTTP/1.1" 200 310
+127.0.0.1 - - [18/Nov/2015:12:39:05 +0200] "GET /LoginWeb/LoginServlet HTTP/1.1" 200 20
+127.0.0.1 - - [18/Nov/2015:12:39:37 +0200] "GET /LoginWeb/register.html?user_name=sad&user_password=dsa HTTP/1.1" 200 310
+0:0:0:0:0:0:0:1 - - [18/Nov/2015:12:40:13 +0200] "GET /LoginWeb/register.html HTTP/1.1" 200 332
+0:0:0:0:0:0:0:1 - - [18/Nov/2015:12:40:14 +0200] "GET /favicon.ico HTTP/1.1" 404 973
+0:0:0:0:0:0:0:1 - - [18/Nov/2015:12:40:19 +0200] "GET /LoginWeb/LoginServlet?user_name=IOn&user_password=213 HTTP/1.1" 200 20
+127.0.0.1 - - [18/Nov/2015:12:44:37 +0200] "GET / HTTP/1.1" 404 951
+0:0:0:0:0:0:0:1 - - [18/Nov/2015:12:44:41 +0200] "GET /LoginWeb/register.html HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [18/Nov/2015:12:44:48 +0200] "GET /LoginWeb/LoginServlet?user_name=Marius&user_password=1234 HTTP/1.1" 200 47
+127.0.0.1 - - [18/Nov/2015:12:45:32 +0200] "GET / HTTP/1.1" 404 951
+0:0:0:0:0:0:0:1 - - [18/Nov/2015:12:46:04 +0200] "GET /LoginWeb/LoginServlet?user_name=Marius&user_password=1234 HTTP/1.1" 200 47
+127.0.0.1 - - [18/Nov/2015:12:46:40 +0200] "GET / HTTP/1.1" 404 951
